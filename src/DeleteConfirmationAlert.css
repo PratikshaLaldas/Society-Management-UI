@@ -1,0 +1,57 @@
+/* Delete Confirmation Alert Container */
+.delete-confirmation-alert {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  /* Delete Confirmation Alert Content */
+  .delete-confirmation-content {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Delete Confirmation Alert Message Text */
+  .delete-confirmation-content p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Delete Confirmation Alert Cancel Button */
+  .alert-cancel-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  /* Delete Confirmation Alert Confirm Button */
+  .alert-confirm-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Delete Confirmation Alert Button Hover State */
+  .alert-cancel-button:hover,
+  .alert-confirm-button:hover {
+    opacity: 0.8;
+  }
